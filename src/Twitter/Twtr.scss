@@ -1,0 +1,52 @@
+.nav {
+  border-right: 1px solid #d8d8d8;
+  position: absolute;
+  height: 100vh;
+  &__list {
+    padding-right: 53px;
+  }
+
+  .item {
+    padding-bottom: 30px;
+    &__leni {
+      padding-left: 20px;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 24px;
+      color: #000000;
+    }
+    &__btn {
+      max-width: 230px;
+      width: 100%;
+      display: block;
+      padding: 15px 90px;
+      background: #1d9bf0;
+      border-radius: 27.5px;
+      border: none;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 24px;
+      color: #ffffff;
+    }
+  }
+  &__logo {
+    padding-top: 30px;
+  }
+  &__title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+margin-bottom: 0;
+}
+  &__link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+    opacity: 0.6;
+  }
+}
