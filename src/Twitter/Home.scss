@@ -1,0 +1,35 @@
+.homemain{
+  background-color: #f5f9f9;
+  width: 100%;
+  &__title{
+      padding-left: 20px;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 32px;
+      color: #000000;
+  }
+  &__buttons{
+      &--button{
+          border: none;
+          background-color: #f5f9f9;
+          color: #000000;
+          font-size: 18px;
+
+          padding: 5px 10px;
+          & span{
+              filter: blur(1px);
+              opacity: 0.7;
+          }
+          &:active {
+              background-color: rgb(211, 211, 211);
+              & span{
+                  filter: blur(0);
+                  opacity: 1;
+                  padding-bottom: 3px;
+                  box-shadow: 0 3px #1DA1F2;
+              }
+          }
+          
+      }
+  }
+}
