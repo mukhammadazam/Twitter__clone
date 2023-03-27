@@ -1,7 +1,9 @@
+import Api from './Api';
 import './Home.scss'
 const Home = () => {
   return (
     
+<div className=" container car">
 <div className="w-100">
 <div className='homemain'>
             <h2 className='homemain__title pt-2'>Home</h2>
@@ -14,6 +16,8 @@ const Home = () => {
                 </button>
             </div>
         </div>
+        <Api/>
+</div>
 </div>
     
   )

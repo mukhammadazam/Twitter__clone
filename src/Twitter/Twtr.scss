@@ -1,4 +1,7 @@
 .nav {
+  position: fixed;
+z-index: 111111111111;
+top: 0;  
   border-right: 1px solid #d8d8d8;
   &__list {
     padding-right: 53px;
