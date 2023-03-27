@@ -16,11 +16,11 @@ const Twitter = () => {
   return (
     <div>
           <nav>
-            <div className=" con">
+            <div className=" con sticky-top">
                 <div className="nav d-block">
                 <ul className='nav__list'>
                 <li className="item d-block"><NavLink className="d-block text-decoration-none" ><img className='nav__logo' src={img} alt="logo" /></NavLink></li>
-                    <li className="item d-block"><NavLink className="d-block text-decoration-none" >
+                    <li className="item d-block"><NavLink to='/' className="d-block text-decoration-none" >
                         <div className="d-block"><img src={img8} alt="reshotka" />
                         <span className='item__leni'>Home</span></div>
                         </NavLink></li>

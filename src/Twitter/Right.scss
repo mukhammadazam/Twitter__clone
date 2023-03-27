@@ -1,6 +1,11 @@
+.site{
+    border-left: 1px solid #d8d8d8;
+}
 .right {
+    padding-left: 28px;
   margin-top: 30px;
   &__input {
+    position: fixed;
     border: none;
     padding: 15px 64px;
     outline: none;
@@ -73,6 +78,25 @@
       line-height: 100%;
       color: #1da1f2;
     }
+  }
+  &__tems--text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #536471;
+  }
+}
+.follow {
+  background: #f7f9f9;
+  border-radius: 10px;
+  padding: 20px 15px;
+  &__text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
   }
 }
 .obuna {

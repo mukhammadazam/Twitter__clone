@@ -7,8 +7,8 @@ import img12 from './imges/obunachi1.svg';
 import { Link } from 'react-router-dom';
 const TwtrRght = () => {
   return (
-    <div >
-        <div className="right">
+    <div className='site' >
+        <div className="right ">
 <div className=" position-relative">
 <input className="right__input" type="text" placeholder="Search Twitter" />
 <img className='right__search' src={search} alt="search" />
@@ -53,16 +53,29 @@ const TwtrRght = () => {
         </div>
     </div>
     <div className="obuna pt-4 d-flex align-items-center justify-content-center">
-        <img src={img12} alt="obunachi" />
+        <img  src={img12} alt="obunachi" />
         <div className="obunachi__link d-flex align-items-center justify-content-center">
           <div>
-          <p className="obuna__text mb-0">Shuhratbek</p>
-            <span className="obuna__leni">@mrshukhrat</span>
+          <p className="obuna__text mb-0 me-3">Shuhratbek</p>
+            <span className="obuna__leni me-3">@mrshukhrat</span>
           </div>
-            <button className="obuna__btn d-block">Follow</button>
+            <button className="obuna__btn ms-5 d-block">Follow</button>
         </div>
     </div>
+    <Link className='right__relo--btn text-decoration-none d-block'>Show more</Link>
+
 </div>
+<p className="right__tems--text">
+Terms of Service
+Privacy Policy
+Cookie Policy
+</p>
+<p className="right__tems--text ">
+Imprint
+Ads Info
+More ···
+© 2021 Twitter, Inc.
+</p>
         </div>
     </div>
   )

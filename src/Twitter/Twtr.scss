@@ -1,7 +1,6 @@
 .nav {
+  position: fixed;
   border-right: 1px solid #d8d8d8;
-  position: absolute;
-  height: 100vh;
   &__list {
     padding-right: 53px;
   }
