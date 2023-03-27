@@ -16,7 +16,7 @@ const Twitter = () => {
   return (
     <div>
           <nav>
-            <div className="container con">
+            <div className=" con">
                 <div className="nav d-block">
                 <ul className='nav__list'>
                 <li className="item d-block"><NavLink className="d-block text-decoration-none" ><img className='nav__logo' src={img} alt="logo" /></NavLink></li>

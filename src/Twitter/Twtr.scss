@@ -31,15 +31,16 @@
       color: #ffffff;
     }
   }
-  &__logo {
-    padding-top: 30px;
-  }
+ 
   &__title {
     font-weight: 600;
     font-size: 16px;
     line-height: 21px;
     color: #000000;
 margin-bottom: 0;
+}
+&__logo{
+  padding-top: 30px;
 }
   &__link {
     font-style: normal;
