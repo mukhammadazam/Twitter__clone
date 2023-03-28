@@ -7,7 +7,8 @@ import img12 from './imges/obunachi1.svg';
 import { Link } from 'react-router-dom';
 const TwtrRght = () => {
   return (
-    <div className='site' >
+ <div className="container">
+     <div className='site' >
         <div className="right ">
 <div className=" position-relative">
 <input className="right__input" type="text" placeholder="Search Twitter" />
@@ -78,6 +79,7 @@ More ···
 </p>
         </div>
     </div>
+ </div>
   )
 }
 

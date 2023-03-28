@@ -5,11 +5,12 @@ import Twitter from './Twitter/Twitter';
 import TwtrRght from './Twitter/TwtrRght';
 function App() {
   return (
-    <div className='container'>
+    <div className=''>
       <div className='d-flex   justify-content-between'>
         <Twitter />
         <Routes>
           <Route path='/' element={<Home />} />
+          
         </Routes>
         <TwtrRght />
       </div>

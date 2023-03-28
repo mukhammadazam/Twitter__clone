@@ -24,7 +24,7 @@ setData(response.data);
         <Home key={news.id} id={news.id} data={news.publishedAt} title={news.title} img={news.imageUrl} summary={news.summary} />
     ));
   return (
-    <div>
+    <div className="container">
 {filteredData
 }
     </div>

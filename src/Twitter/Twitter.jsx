@@ -11,12 +11,16 @@ import img9 from './imges/Bobur.svg';
 import img10 from './imges/uchhnuqta.svg';
 import './Twtr.scss';
 import { NavLink,Link } from "react-router-dom";
-
+import { useState } from 'react';
 const Twitter = () => {
+    const [pro,setPro] =useState(false);
+    const proFun =()=>{
+return setPro(!pro)
+    }
   return (
     <div>
           <nav>
-            <div className=" con sticky-top">
+            <div className=" container">
                 <div className="nav d-block">
                 <ul className='nav__list'>
                 <li className="item d-block"><NavLink className="d-block text-decoration-none" ><img className='nav__logo' src={img} alt="logo" /></NavLink></li>
@@ -44,9 +48,9 @@ const Twitter = () => {
                         <div className="d-block"><img src={img3} alt="lits" />
                         <span className='item__leni  d-none d-xl-inline'>Lists</span></div>
                         </NavLink></li>
-                    <li className="item d-block"><NavLink className="d-block text-decoration-none" >
-                        <div className="d-block"><img src={img4} alt="profeli" />
-                        <span className="item__leni  d-none d-xl-inline">Profile</span></div>
+                    <li onClick={proFun} className="item  d-block"><NavLink className="d-block text-decoration-none" >
+                        <div className={`d-block  `}><img className={`${pro ? "bg-dark border rounded" : ''} `} src={img4} alt="profeli" />
+                        <span className={`item__leni  d-none d-xl-inline ${pro ? "fs-4" : ''} `} >Profile</span></div>
                         </NavLink></li>
                     <li className="item d-block"><NavLink className="d-block text-decoration-none" >
                         <div className="d-block"><img src={img2} alt="more" />
@@ -56,7 +60,7 @@ const Twitter = () => {
                         <button className='item__btn  d-none d-xl-inline'>Tweet</button>
                         </NavLink></li>
                 </ul>
-                <div className='d-flex align-items-center d-none d-xl-inline justify-content-center'>
+                <div className='d-flex align-items-center d-none d-xl-flex justify-content-center'>
                     <img src={img9} alt="Bobur" />
                     <div className=" ps-3 pe-3">
                         <h6 className='nav__title'>Bobur</h6>
