@@ -1,7 +1,12 @@
 .site{
-  position: sticky;
-  top: 50px;
+  position: fixed;
+  right: 100px;
     border-left: 1px solid #d8d8d8;
+}
+@media screen and (max-width:1200px) {
+  .site{
+   display: none;
+  }
 }
 .right {
     padding-left: 28px;

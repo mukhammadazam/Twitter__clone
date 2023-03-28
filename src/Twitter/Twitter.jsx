@@ -21,42 +21,42 @@ const Twitter = () => {
                 <ul className='nav__list'>
                 <li className="item d-block"><NavLink className="d-block text-decoration-none" ><img className='nav__logo' src={img} alt="logo" /></NavLink></li>
                     <li className="item d-block"><NavLink to='/' className="d-block text-decoration-none" >
-                        <div className="d-block"><img src={img8} alt="reshotka" />
-                        <span className='item__leni'>Home</span></div>
+                        <div className="d-flex align-items-center"><img src={img8} alt="reshotka" />
+                        <span className='item__leni d-none d-xl-inline'>Home</span></div>
                         </NavLink></li>
                     <li className="item d-block"><NavLink className="d-block text-decoration-none" >
                         <div className="d-block"><img src={img6} alt="reshotka" />
-                        <span className='item__leni'>Explore</span></div>
+                        <span className='item__leni  d-none d-xl-inline'>Explore</span></div>
                         </NavLink></li>
                     <li className="item d-block"><NavLink className="d-block text-decoration-none" >
                         <div className="d-block"><img src={img5} alt="qungiroq" />
-                        <span className='item__leni'>Notifications</span></div>
+                        <span className='item__leni  d-none d-xl-inline'>Notifications</span></div>
                         </NavLink></li>
                     <li className="item d-block"><NavLink className="d-block text-decoration-none" >
                         <div className="d-block"><img src={img7} alt="sms" />
-                        <span className="item__leni">Messages</span></div>
+                        <span className="item__leni  d-none d-xl-inline">Messages</span></div>
                         </NavLink></li>
                     <li className="item d-block"><NavLink className="d-block text-decoration-none" >
                         <div className="d-block"><img src={img1} alt="chat" />
-                       <span className="item__leni"> Bookmarks</span></div>
+                       <span className="item__leni  d-none d-xl-inline"> Bookmarks</span></div>
                        </NavLink></li>
                     <li className="item d-block"><NavLink className="d-block text-decoration-none" >
                         <div className="d-block"><img src={img3} alt="lits" />
-                        <span className='item__leni'>Lists</span></div>
+                        <span className='item__leni  d-none d-xl-inline'>Lists</span></div>
                         </NavLink></li>
                     <li className="item d-block"><NavLink className="d-block text-decoration-none" >
                         <div className="d-block"><img src={img4} alt="profeli" />
-                        <span className="item__leni">Profile</span></div>
+                        <span className="item__leni  d-none d-xl-inline">Profile</span></div>
                         </NavLink></li>
                     <li className="item d-block"><NavLink className="d-block text-decoration-none" >
                         <div className="d-block"><img src={img2} alt="more" />
-                        <span className="item__leni">More</span></div>
+                        <span className="item__leni  d-none d-xl-inline">More</span></div>
                         </NavLink></li>
                     <li className="item d-block"><NavLink className="d-block text-decoration-none" >
-                        <button className='item__btn'>Tweet</button>
+                        <button className='item__btn  d-none d-xl-inline'>Tweet</button>
                         </NavLink></li>
                 </ul>
-                <div className='d-flex align-items-center justify-content-center'>
+                <div className='d-flex align-items-center d-none d-xl-inline justify-content-center'>
                     <img src={img9} alt="Bobur" />
                     <div className=" ps-3 pe-3">
                         <h6 className='nav__title'>Bobur</h6>
